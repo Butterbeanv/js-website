@@ -101,8 +101,8 @@ body {
      1px -1px 0 black,
     -1px  1px 0 black,
      1px  1px 0 black;
-     bottom: -30px;
-     left: 160px;
+     bottom: -50px;
+     left: 170px;
 
     
 }
@@ -115,3 +115,99 @@ body {
 
 
 
+#signtext {
+    
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    background-color: #007BFE;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px 2px black;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     bottom: -255px;
+     left: 1px;
+     
+
+}
+
+#signtext:hover {
+    color: #d6dbdd;
+    box-shadow: 2px 2px 2px black;
+}
+
+#Emailbox{
+    Position: relative;
+    left: 185px;
+    top: -15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transform: scale(1.2);
+    
+}
+
+#Emailbox:hover{
+    outline: none;
+    border: 2px solid rgb(19, 100, 212);
+    box-shadow: 1px 1px 2px rgb(19, 100, 212);
+}
+
+#Emailbox::placeholder {
+   color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Emailbox{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+
+#signup{
+    position: relative;
+    background-color: #007BFE;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 100;
+    transform: scale(1.5);
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 900; 
+    color: white;
+    box-shadow: 5px 5px 2px black;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     bottom: -50px;
+     left: -160px;
+}
+
+#Emailtext{
+     margin-left: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(2);
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow:
+  -1px -1px 0 #f7fbff,
+         1px -1px 0 #eff1f1,
+        -1px  1px 0 #f4f6f6,
+         1px  1px 0 #f4f4f5;
+         margin-bottom: 100px;
+}
