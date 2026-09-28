@@ -19,12 +19,14 @@ body {
     margin-left: 240px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 60px;
+    transform: scale(1.2);
 }
 
 .signin{
     margin-bottom: -40px;
     margin-left: 200px;
     font-family: Arial, Helvetica, sans-serif;
+    transform: scale(1.2);
 }
 
 #Username{
@@ -32,6 +34,7 @@ body {
     margin-top: 10.6px;
     border: 2px solid black;
     border-radius: 5px;
+    transform: scale(1.2);
     
 }
 
@@ -40,12 +43,75 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#Username:focus {
+#Username:hover {
     outline: none;
-    border: 2px solid #dae0dc;
+    border: 2px solid rgb(19, 100, 212);
+    box-shadow: 1px 1px 2px rgb(19, 100, 212);
 }
 
 .Password{
-    margin-left: 200px;
+    margin-left: 205px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(1.2);
+    text-shadow:
+  -1px -1px 0 #f7fbff,
+         1px -1px 0 #eff1f1,
+        -1px  1px 0 #f4f6f6,
+         1px  1px 0 #f4f4f5;
+}
+
+#Passwordbox {
+    position: relative;
+    left: 365px;
+    top: -65px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transform: scale(1.2);
+}
+
+
+#Passwordbox::placeholder {
+   color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#Passwordbox:hover {
+    outline: none;
+    border: 2px solid rgb(19, 100, 212);
+    box-shadow: 1px 1px 2px rgb(19, 100, 212);
+}
+
+#Login{
+    position: relative;
+    background-color: #007BFE;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 100;
+    transform: scale(1.5);
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 900; 
+    color: white;
+    box-shadow: 5px 5px 2px black;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     bottom: -30px;
+     left: 160px;
+
+    
+}
+#Login:hover{
+    border-color: #3d8154;
+    color: #d6dbdd;
+    box-shadow: 4px 4px 2px black;
+
+}
+
+
+

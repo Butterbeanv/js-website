@@ -7,13 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
-    <div class="Card">
-        <h1 class="greeting">Good afternoon</h1>
-        <h1 class="signin">Username:</h1>
-        <input type="text" name="Enter username here" id="Username" required placeholder="Enter username here !">
-        <h1 class="Password">password:</h1>
-        <input type="password" name="" id="">
-    </div>
+<div class="Card"> 
+    <h1 class="greeting">Good afternoon</h1> 
+
+    <form>
+        <h1 class="signin">Username:</h1> 
+        <input 
+            type="text" 
+            name="username" 
+            id="Username" 
+            required 
+            placeholder="Enter username here !"
+        > 
+
+        <h1 class="Password">Password:</h1> 
+        <input 
+            type="password" 
+            name="password" 
+            id="Passwordbox" 
+            required 
+            placeholder="Enter password here !"
+        > 
+
+        <input 
+            type="submit" 
+            value="Login" 
+            id="Login"
+        > 
+    </form>
+    
+    <a target="_blank" href="signup.html" id="Signuptext">Dont have a accont thats fine click here to make one !</a>
+</div>
+
+
 
     <script src="Home.js"></script>
 </body>
