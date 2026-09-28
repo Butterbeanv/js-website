@@ -1,3 +1,26 @@
-body{
-font-size: 80px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Card {
+    float: right;
+    border: 5px solid black;
+    border-radius: 60px;
+    background-color: hsl(180, 33%, 99%);
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+.greeting{
+    margin-left: 240px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.signin{
+    margin-bottom: -20;
 }
