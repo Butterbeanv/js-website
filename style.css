@@ -22,5 +22,30 @@ body {
 }
 
 .signin{
-    margin-bottom: -20;
+    margin-bottom: -40px;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Username{
+    margin-left: 365px;
+    margin-top: 10.6px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+#Username::placeholder{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Username:focus {
+    outline: none;
+    border: 2px solid #dae0dc;
+}
+
+.Password{
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
 }
