@@ -20,7 +20,7 @@
             placeholder="Enter username here !"
         > 
 
-        <h1 class="Password">Password:</h1> 
+        <h1 class="Password" >Password:</h1> 
         <input 
             type="password" 
             name="password" 
@@ -43,9 +43,10 @@
 
     <a href="index.html"  id="signtext"> have an account? Click here!</a>
 
-
-
-
-    <script src="Home.js"></script>
+<button type="button" onclick="googleLogin()" id="googleButton">
+    <img src="google.png" alt="Continue with Google">
+</button>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="signup.js"></script>
 </body>
 </html>

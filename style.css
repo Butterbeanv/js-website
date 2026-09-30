@@ -35,7 +35,8 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     transform: scale(1.2);
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 #Username::placeholder{
@@ -67,8 +68,9 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     transform: scale(1.2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
-
 
 #Passwordbox::placeholder {
    color: black;
@@ -79,6 +81,7 @@ body {
     outline: none;
     border: 2px solid rgb(19, 100, 212);
     box-shadow: 1px 1px 2px rgb(19, 100, 212);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #Login{
@@ -103,17 +106,15 @@ body {
      1px  1px 0 black;
      bottom: -50px;
      left: 170px;
-
-    
+     font-family: Arial, Helvetica, sans-serif;
 }
+
 #Login:hover{
     border-color: #3d8154;
     color: #d6dbdd;
     box-shadow: 4px 4px 2px black;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 #signtext {
     
@@ -136,8 +137,6 @@ body {
      1px  1px 0 black;
      bottom: -255px;
      left: 1px;
-     
-
 }
 
 #signtext:hover {
@@ -209,5 +208,5 @@ body {
          1px -1px 0 #eff1f1,
         -1px  1px 0 #f4f6f6,
          1px  1px 0 #f4f4f5;
-         margin-bottom: 100px;
+         margin-bottom: 70px;
 }
