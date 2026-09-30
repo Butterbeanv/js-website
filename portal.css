@@ -1,0 +1,50 @@
+#Takeatest{
+    position: relative;
+    width: 180px;
+    bottom: -0px;
+    left: -150px;
+     background: transparent;
+     text-decoration: none;
+}
+
+#Refline{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    bottom: -300px;
+    width: 1000px;
+    height: 600px;
+    left: 250px;
+}
+
+#text1{
+    position: relative;
+    bottom: -20px;
+    left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+#Gradeviwer{
+    position: relative;
+    width: 180px;
+    bottom: -0px;
+    left: -240px;
+     background: transparent;
+     text-decoration: none;
+}
+
+#text2{
+     position: relative;
+    bottom: -20px;
+    left: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
