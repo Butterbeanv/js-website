@@ -13,10 +13,10 @@
     border: 3px solid black;
     border-radius: 20px;
     position: relative;
-    bottom: -300px;
+    bottom: -400px;
     width: 1000px;
     height: 600px;
-    left: 250px;
+    left: 350px;
 }
 
 #text1{
@@ -32,19 +32,125 @@
 
 #Gradeviwer{
     position: relative;
-    width: 180px;
-    bottom: -0px;
+    width: 140px;
+    bottom: 10px;
     left: -240px;
      background: transparent;
      text-decoration: none;
+
 }
 
 #text2{
+    font-size: 20px;
      position: relative;
     bottom: -20px;
-    left: -90px;
+    left: -110px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-weight: bold;
     color: black;
 }
+
+
+#Loginscreen {
+    position: absolute;
+    width: 250px;
+    height: 100000px;
+    background-color: rgb(82, 176, 193);
+    left: -40px;
+    top: 0px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+
+#Logout{
+   position: relative;
+    background-color: #007BFE;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 100;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 900; 
+    color: white;
+    box-shadow: 5px 5px 2px black;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     bottom: -18px;
+     left: 40px;
+     transform: scale(1.0);
+}
+body {
+    background-color: rgba(6, 103, 133, 0.309);
+}
+
+
+#Profile {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 55px;
+    border: 2px solid black;
+    background-color: rgb(251, 251, 251);
+    border-radius: 50%;
+    overflow: visible;
+}
+
+
+
+
+#ProfilePicture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0px solid black;
+    opacity: 1;
+}
+
+#edit {
+    position: relative;
+    top: -175px;
+    left: 80px;
+    opacity: 0;
+}
+
+#Profile:hover #edit {
+    opacity: 1;
+}
+
+
+
+#Docs{
+    position: relative;
+    background-color: #007BFE;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 100;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 900; 
+    color: white;
+    box-shadow: 5px 5px 2px black;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     bottom: -40px;
+     left: 40px;
+     transform: scale(1.);
+}
+
+
+
