@@ -67,4 +67,18 @@ async function changeProfilePicture() {
 }
 
 
+async function logout() {
+
+    const { error } = await supabaseClient.auth.signOut();
+
+    if (error) {
+        console.error("Logout error:", error);
+        alert("Could not log out.");
+        return;
+    }
+
+    window.location.href = "index.html";
+}
+
+
 loadProfile();

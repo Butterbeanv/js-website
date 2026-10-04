@@ -1,6 +1,6 @@
 #Takeatest{
     position: relative;
-    width: 180px;
+    width: 150px;
     bottom: -0px;
     left: -150px;
      background: transparent;
@@ -15,7 +15,7 @@
     position: relative;
     bottom: -400px;
     width: 1000px;
-    height: 600px;
+    height: 650px;
     left: 350px;
 }
 
@@ -150,6 +150,43 @@ body {
      bottom: -40px;
      left: 40px;
      transform: scale(1.);
+}
+/* PORTAL BUTTON ANIMATIONS */
+
+#Logout,
+#Docs {
+    transition: 0.15s;
+}
+
+#Logout:hover,
+#Docs:hover {
+    transform: translateY(-2px);
+    box-shadow: 7px 7px 0 black;
+}
+
+#Logout:active,
+#Docs:active {
+    transform: translateY(2px);
+    box-shadow: 2px 2px 0 black;
+}
+/* PORTAL IMAGE ANIMATIONS */
+
+#Takeatest,
+#Gradeviwer {
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+#Takeatest:hover,
+#Gradeviwer:hover {
+    transform: translateY(-4px);
+    filter: drop-shadow(1px 1px 0 black);
+}
+
+#Takeatest:active,
+#Gradeviwer:active {
+    transform: translateY(2px);
+    filter: drop-shadow(2px 2px 0 black);
 }
 
 
