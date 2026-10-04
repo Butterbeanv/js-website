@@ -237,3 +237,34 @@ width: 200px;
 
 
 }
+@media (max-width: 750px) {
+    #SideBar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 3px solid black;
+    }
+
+    #Document {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .Terms {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .Terms h1 {
+        font-size: 32px;
+    }
+
+    .Terms h2 {
+        font-size: 22px;
+    }
+
+    .Terms p {
+        font-size: 15px;
+    }
+}

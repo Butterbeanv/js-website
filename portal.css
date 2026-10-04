@@ -188,6 +188,57 @@ body {
     transform: translateY(2px);
     filter: drop-shadow(2px 2px 0 black);
 }
+/* MOBILE PORTAL */
+
+@media (max-width: 600px) {
+
+    #Refline {
+        position: relative;
+        width: 92%;
+        height: auto;
+        min-height: 500px;
+        left: 0;
+        bottom: 0;
+        margin: 20px auto;
+    }
+
+    #Loginscreen {
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+        left: 0;
+        top: 0;
+        border-radius: 15px;
+    }
+
+    #Profile {
+        margin: 20px auto;
+        left: 0;
+    }
+
+    #Logout,
+    #Docs {
+        position: static;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #Takeatest,
+    #Gradeviwer {
+        position: static;
+        display: block;
+        width: 150px;
+        margin: 20px auto;
+    }
+
+    #text1,
+    #text2 {
+        position: static;
+        text-align: center;
+        margin: 10px;
+    }
+}
 
 
 
