@@ -21,6 +21,35 @@ async function loadProfile() {
         return;
     }
 
+    // Send login notification to Discord
+    if (!sessionStorage.getItem("discordLoginSent")) {
+
+        const username =
+            user.user_metadata.username ||
+            user.user_metadata.full_name ||
+            user.email ||
+            "Unknown user";
+
+        fetch("/api/discord-login", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                username: username
+            })
+        })
+        .then(response => {
+            if (response.ok) {
+                sessionStorage.setItem("discordLoginSent", "true");
+            }
+        })
+        .catch(error => {
+            console.error("Discord notification error:", error);
+        });
+    }
+
+
     const discordAvatar = user.user_metadata.avatar_url;
     const customAvatar = user.user_metadata.custom_avatar;
 
