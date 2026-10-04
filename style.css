@@ -224,7 +224,7 @@ body {
     top: 110px;
     font-weight: bolder;
     font-size: 40px;
-    
+     pointer-events: auto;
 }
 
 #googleButton img {
@@ -234,6 +234,7 @@ body {
     position: relative;
     bottom: 90px;
     left: -90px;
+    pointer-events: auto;
 }
 
 #Googletext{
@@ -296,4 +297,90 @@ body {
 
 #googleButton:active {
     transform: translateY(2px);
+}
+
+#terms-agreement {
+    position: relative;
+    bottom: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+
+}
+
+#terms {
+   display: inline-block;
+    text-decoration: none;
+    position: relative;
+    background-color: #007BFE;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px 2px black;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     bottom: -255px;
+     left: 20px;
+}
+#privacy {
+   display: inline-block;
+    text-decoration: none;
+    position: relative;
+    background-color: #007BFE;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px 2px black;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     bottom: -255px;
+     left: 40px;
+}
+/* TERMS & PRIVACY BUTTON ANIMATION */
+
+#terms,
+#privacy {
+    transition: 0.15s;
+}
+
+#terms:hover,
+#privacy:hover {
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 0 black;
+}
+
+#terms:active,
+#privacy:active {
+    transform: translateY(2px);
+    box-shadow: 1px 1px 0 black;
+}
+#googleButton {
+    width: 80px;
+    height: 80px;
+}
+
+#googleButton {
+    width: 80px;
+    height: 80px;
+    pointer-events: none;
+}
+
+#googleButton img {
+    pointer-events: auto;
 }
